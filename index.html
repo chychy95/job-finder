@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Jobs Hiring Near You Today</title>
+    <!--
+      This page is intentionally lightweight and uses only HTML and inline CSS for fast loading.
+      The color palette relies on a primary accent colour (purple) with a white background and dark text.
+      To change button links to your own affiliate URLs, replace the href values noted below.
+    -->
+    <style>
+        :root {
+            /* Accent colour used for buttons and highlights */
+            --primary-color: #6c63ff;
+            --primary-hover: #574ee9;
+            --text-color: #333333;
+            --background-color: #ffffff;
+            --card-bg: #f8f9fa;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        .hero .subheadline {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+            font-weight: normal;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+        }
+
+        /* CARDS SECTION */
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-size: 1.3em;
+        }
+
+        .card p {
+            margin-top: 0;
+            margin-bottom: 1em;
+            font-size: 1em;
+        }
+
+        .btn-card {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .btn-card:hover {
+            background-color: var(--primary-hover);
+        }
+
+        /* BENEFITS SECTION */
+        .benefits {
+            margin-top: 40px;
+        }
+
+        .benefits h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            text-align: left;
+        }
+
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .benefits li {
+            margin-bottom: 0.5em;
+            padding-left: 1.2em;
+            position: relative;
+        }
+
+        .benefits li::before {
+            content: '\2022'; /* bullet symbol */
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        /* SOCIAL PROOF */
+        .social-proof {
+            margin-top: 40px;
+            text-align: center;
+            font-style: italic;
+            font-size: 0.95em;
+        }
+
+        /* FINAL CTA */
+        .final-cta {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .final-cta .btn-primary {
+            padding: 20px 40px;
+            font-size: 1.1em;
+        }
+
+        /* RESPONSIVE DESIGN: stack cards on mobile, align horizontally on wider screens */
+        @media (min-width: 600px) {
+            .cards {
+                flex-direction: row;
+            }
+            .card {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>Find Jobs Hiring Near You Today</h1>
+            <p class="subheadline">Work from home or in your area – No experience needed</p>
+            <!-- Call‑to‑action and trust text removed as requested -->
+        </section>
+
+        <!-- 3 JOB OPTIONS (MAIN SECTION) -->
+        <section class="cards">
+            <!-- Card 1: Work From Home Jobs -->
+            <div class="card">
+                <h3>Work From Home Jobs</h3>
+                <p>Flexible remote jobs you can do from your phone or laptop</p>
+                <!-- Replace the href below with your affiliate link for the "my job corner at home assistant" offer -->
+                <a href="https://trksy.org/aff_c?offer_id=2899&amp;aff_id=164144" class="btn-card">Apply Now</a>
+            </div>
+
+            <!-- Card 2: AI & Online Jobs -->
+            <div class="card">
+                <h3>AI &amp; Online Jobs</h3>
+                <p>New AI‑powered opportunities and beginner‑friendly online work</p>
+                <!-- Replace the href below with your affiliate link for the "Ai job offers" offer -->
+                <a href="https://trksy.org/aff_c?offer_id=4381&amp;aff_id=164144" class="btn-card">Start Now</a>
+            </div>
+
+            <!-- Card 3: Local & Delivery Jobs -->
+            <div class="card">
+                <h3>Local &amp; Delivery Jobs</h3>
+                <p>Find jobs like warehouse, delivery, and entry‑level positions near you</p>
+                <!-- Replace the href below with your affiliate link for the "MyJobsCorner - Fedex" offer -->
+                <a href="https://giftclick.org/aff_c?offer_id=1375&amp;aff_id=164144" class="btn-card">Find Jobs</a>
+            </div>
+        </section>
+
+        <!-- BENEFITS SECTION -->
+        <section class="benefits">
+            <h2>Why Join?</h2>
+            <ul>
+                <li>No experience required</li>
+                <li>Quick and easy signup</li>
+                <li>Updated daily job listings</li>
+            </ul>
+        </section>
+
+        <!-- SOCIAL PROOF -->
+        <section class="social-proof">
+            <p>Thousands of people are already finding jobs using this platform</p>
+        </section>
+
+        <!-- The final call‑to‑action has been removed as requested. If needed, add another CTA section here in the future. -->
+    </div>
+</body>
+</html>
